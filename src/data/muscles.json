@@ -1,0 +1,274 @@
+[
+  {
+    "id": "pectoralis-major",
+    "name": "大胸筋",
+    "category": "upper",
+    "view": "front",
+    "position": { "x": 250, "y": 180 },
+    "description": "胸部の大きな筋肉で、腕を前に押し出す動作や腕を内側に寄せる動作を行います。"
+  },
+  {
+    "id": "latissimus-dorsi",
+    "name": "広背筋",
+    "category": "upper",
+    "view": "back",
+    "position": { "x": 250, "y": 220 },
+    "description": "背中の最も大きな筋肉で、腕を後ろに引く動作や懸垂などの動作を行います。"
+  },
+  {
+    "id": "trapezius",
+    "name": "僧帽筋",
+    "category": "upper",
+    "view": "back",
+    "position": { "x": 250, "y": 120 },
+    "description": "首から肩、背中にかけての筋肉で、肩甲骨を動かし、首や肩の安定に重要な役割を果たします。"
+  },
+  {
+    "id": "deltoid",
+    "name": "三角筋",
+    "category": "arm",
+    "view": "front",
+    "position": { "x": 180, "y": 160 },
+    "description": "肩の筋肉で、腕を上げる動作や肩の安定に重要です。前部、中部、後部の3つの部分に分かれます。"
+  },
+  {
+    "id": "biceps-brachii",
+    "name": "上腕二頭筋",
+    "category": "arm",
+    "view": "front",
+    "position": { "x": 150, "y": 200 },
+    "description": "上腕の前面にある筋肉で、肘を曲げる動作や前腕を回転させる動作を行います。"
+  },
+  {
+    "id": "triceps-brachii",
+    "name": "上腕三頭筋",
+    "category": "arm",
+    "view": "back",
+    "position": { "x": 150, "y": 220 },
+    "description": "上腕の後面にある筋肉で、肘を伸ばす動作を行います。腕立て伏せで主に使われる筋肉です。"
+  },
+  {
+    "id": "rectus-abdominis",
+    "name": "腹直筋",
+    "category": "core",
+    "view": "front",
+    "position": { "x": 250, "y": 260 },
+    "description": "腹部の中央にある筋肉で、体幹を前に曲げる動作や腹圧を高める役割があります。"
+  },
+  {
+    "id": "external-oblique",
+    "name": "外腹斜筋",
+    "category": "core",
+    "view": "front",
+    "position": { "x": 220, "y": 270 },
+    "description": "腹部の側面にある筋肉で、体幹を側方に曲げる動作や回転動作を行います。"
+  },
+  {
+    "id": "internal-oblique",
+    "name": "内腹斜筋",
+    "category": "core",
+    "view": "front",
+    "position": { "x": 230, "y": 280 },
+    "description": "外腹斜筋の内側にある筋肉で、体幹の安定と回転動作に重要な役割を果たします。"
+  },
+  {
+    "id": "erector-spinae",
+    "name": "脊柱起立筋",
+    "category": "core",
+    "view": "back",
+    "position": { "x": 250, "y": 200 },
+    "description": "背骨に沿って走る筋肉群で、姿勢を保持し、体幹を後ろに反らす動作を行います。"
+  },
+  {
+    "id": "quadriceps-femoris",
+    "name": "大腿四頭筋",
+    "category": "leg",
+    "view": "front",
+    "position": { "x": 230, "y": 350 },
+    "description": "太ももの前面にある筋肉群で、膝を伸ばす動作や歩行、立ち上がりに重要な役割を果たします。"
+  },
+  {
+    "id": "hamstrings",
+    "name": "ハムストリングス",
+    "category": "leg",
+    "view": "back",
+    "position": { "x": 270, "y": 370 },
+    "description": "太ももの後面にある筋肉群で、膝を曲げる動作や股関節を後ろに動かす動作を行います。"
+  },
+  {
+    "id": "gluteus-maximus",
+    "name": "大殿筋",
+    "category": "lower",
+    "view": "back",
+    "position": { "x": 250, "y": 320 },
+    "description": "お尻の最も大きな筋肉で、股関節を後ろに動かす動作や立ち上がりに重要な役割を果たします。"
+  },
+  {
+    "id": "gluteus-medius",
+    "name": "中殿筋",
+    "category": "lower",
+    "view": "back",
+    "position": { "x": 240, "y": 310 },
+    "description": "お尻の側面にある筋肉で、股関節を横に開く動作や歩行時の骨盤安定に重要です。"
+  },
+  {
+    "id": "gastrocnemius",
+    "name": "腓腹筋",
+    "category": "leg",
+    "view": "back",
+    "position": { "x": 250, "y": 450 },
+    "description": "ふくらはぎの表層にある筋肉で、足首を伸ばす動作やジャンプ、歩行に重要な役割を果たします。"
+  },
+  {
+    "id": "soleus",
+    "name": "ヒラメ筋",
+    "category": "leg",
+    "view": "back",
+    "position": { "x": 250, "y": 470 },
+    "description": "ふくらはぎの深層にある筋肉で、立位での姿勢保持や足首の安定に重要な役割を果たします。"
+  },
+  {
+    "id": "serratus-anterior",
+    "name": "前鋸筋",
+    "category": "upper",
+    "view": "front",
+    "position": { "x": 200, "y": 200 },
+    "description": "肋骨から肩甲骨につながる筋肉で、肩甲骨を前に押し出す動作や腕を上げる動作に関与します。"
+  },
+  {
+    "id": "rhomboid",
+    "name": "菱形筋",
+    "category": "upper",
+    "view": "back",
+    "position": { "x": 260, "y": 150 },
+    "description": "肩甲骨を背骨に引き寄せる動作を行う筋肉で、姿勢の維持に重要な役割を果たします。"
+  },
+  {
+    "id": "levator-scapulae",
+    "name": "肩甲挙筋",
+    "category": "upper",
+    "view": "back",
+    "position": { "x": 270, "y": 130 },
+    "description": "肩甲骨を上に引き上げる動作を行う筋肉で、肩こりの原因となることが多い筋肉です。"
+  },
+  {
+    "id": "infraspinatus",
+    "name": "棘下筋",
+    "category": "arm",
+    "view": "back",
+    "position": { "x": 180, "y": 140 },
+    "description": "肩甲骨の後面にある筋肉で、腕を外側に回転させる動作を行うローテーターカフの一部です。"
+  },
+  {
+    "id": "supraspinatus",
+    "name": "棘上筋",
+    "category": "arm",
+    "view": "back",
+    "position": { "x": 170, "y": 130 },
+    "description": "肩関節の安定に重要なローテーターカフの一部で、腕を上げる動作の初期に働きます。"
+  },
+  {
+    "id": "teres-minor",
+    "name": "小円筋",
+    "category": "arm",
+    "view": "back",
+    "position": { "x": 190, "y": 150 },
+    "description": "ローテーターカフの一部で、腕を外側に回転させる動作に関与します。"
+  },
+  {
+    "id": "subscapularis",
+    "name": "肩甲下筋",
+    "category": "arm",
+    "view": "back",
+    "position": { "x": 200, "y": 160 },
+    "description": "肩甲骨の前面にあるローテーターカフの一部で、腕を内側に回転させる動作を行います。"
+  },
+  {
+    "id": "brachialis",
+    "name": "上腕筋",
+    "category": "arm",
+    "view": "front",
+    "position": { "x": 140, "y": 210 },
+    "description": "上腕二頭筋の下にある筋肉で、肘を曲げる動作において強力な力を発揮します。"
+  },
+  {
+    "id": "brachioradialis",
+    "name": "腕橈骨筋",
+    "category": "arm",
+    "view": "front",
+    "position": { "x": 130, "y": 240 },
+    "description": "前腕の親指側にある筋肉で、肘を曲げる動作や前腕の回転動作に関与します。"
+  },
+  {
+    "id": "flexor-carpi-radialis",
+    "name": "橈側手根屈筋",
+    "category": "arm",
+    "view": "front",
+    "position": { "x": 120, "y": 250 },
+    "description": "手首を曲げる動作や親指側に傾ける動作を行う前腕の筋肉です。"
+  },
+  {
+    "id": "flexor-carpi-ulnaris",
+    "name": "尺側手根屈筋",
+    "category": "arm",
+    "view": "front",
+    "position": { "x": 140, "y": 250 },
+    "description": "手首を曲げる動作や小指側に傾ける動作を行う前腕の筋肉です。"
+  },
+  {
+    "id": "extensor-carpi-radialis",
+    "name": "橈側手根伸筋",
+    "category": "arm",
+    "view": "front",
+    "position": { "x": 130, "y": 260 },
+    "description": "手首を反らす動作や親指側に傾ける動作を行う前腕の筋肉です。"
+  },
+  {
+    "id": "tibialis-anterior",
+    "name": "前脛骨筋",
+    "category": "leg",
+    "view": "front",
+    "position": { "x": 240, "y": 420 },
+    "description": "すねの前面にある筋肉で、足首を反らす動作やつま先を上げる動作を行います。"
+  },
+  {
+    "id": "peroneus-longus",
+    "name": "長腓骨筋",
+    "category": "leg",
+    "view": "front",
+    "position": { "x": 260, "y": 430 },
+    "description": "すねの外側にある筋肉で、足首を外側に傾ける動作や足のアーチを支える役割があります。"
+  },
+  {
+    "id": "adductor-longus",
+    "name": "長内転筋",
+    "category": "leg",
+    "view": "front",
+    "position": { "x": 260, "y": 340 },
+    "description": "太ももの内側にある筋肉で、脚を内側に閉じる動作を行います。"
+  },
+  {
+    "id": "adductor-magnus",
+    "name": "大内転筋",
+    "category": "leg",
+    "view": "front",
+    "position": { "x": 270, "y": 350 },
+    "description": "太ももの内側にある最も大きな内転筋で、脚を内側に閉じる動作を行います。"
+  },
+  {
+    "id": "tensor-fasciae-latae",
+    "name": "大腿筋膜張筋",
+    "category": "leg",
+    "view": "front",
+    "position": { "x": 220, "y": 330 },
+    "description": "太ももの外側上部にある筋肉で、股関節を外側に開く動作や歩行時の安定に関与します。"
+  },
+  {
+    "id": "sartorius",
+    "name": "縫工筋",
+    "category": "leg",
+    "view": "front",
+    "position": { "x": 240, "y": 340 },
+    "description": "人体で最も長い筋肉で、股関節と膝関節の両方に作用し、脚を曲げて外側に開く動作を行います。"
+  }
+]
