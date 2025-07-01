@@ -2,8 +2,12 @@
   <div class="title-screen">
     <div class="container">
       <header class="header">
-        <h1 class="title">💪 筋肉クイズ</h1>
-        <p class="subtitle">人体の筋肉を学ぼう！</p>
+        <h1 class="title">
+          💪 筋肉クイズ
+        </h1>
+        <p class="subtitle">
+          人体の筋肉を学ぼう！
+        </p>
       </header>
 
       <div class="settings-panel">
@@ -17,7 +21,7 @@
                 v-model="settings.questionCount"
                 type="radio"
                 :value="5"
-              />
+              >
               <span>5問</span>
             </label>
             <label class="radio-option">
@@ -25,7 +29,7 @@
                 v-model="settings.questionCount"
                 type="radio"
                 :value="10"
-              />
+              >
               <span>10問</span>
             </label>
             <label class="radio-option">
@@ -33,7 +37,7 @@
                 v-model="settings.questionCount"
                 type="radio"
                 :value="15"
-              />
+              >
               <span>15問</span>
             </label>
             <label class="radio-option">
@@ -41,7 +45,7 @@
                 v-model="settings.questionCount"
                 type="radio"
                 :value="-1"
-              />
+              >
               <span>全問題</span>
             </label>
           </div>
@@ -55,7 +59,7 @@
                 v-model="settings.category"
                 type="radio"
                 value="all"
-              />
+              >
               <span>全身</span>
             </label>
             <label class="radio-option">
@@ -63,7 +67,7 @@
                 v-model="settings.category"
                 type="radio"
                 value="upper"
-              />
+              >
               <span>上半身</span>
             </label>
             <label class="radio-option">
@@ -71,7 +75,7 @@
                 v-model="settings.category"
                 type="radio"
                 value="lower"
-              />
+              >
               <span>下半身</span>
             </label>
             <label class="radio-option">
@@ -79,7 +83,7 @@
                 v-model="settings.category"
                 type="radio"
                 value="core"
-              />
+              >
               <span>体幹</span>
             </label>
             <label class="radio-option">
@@ -87,7 +91,7 @@
                 v-model="settings.category"
                 type="radio"
                 value="arm"
-              />
+              >
               <span>腕</span>
             </label>
             <label class="radio-option">
@@ -95,7 +99,7 @@
                 v-model="settings.category"
                 type="radio"
                 value="leg"
-              />
+              >
               <span>脚</span>
             </label>
           </div>
@@ -103,11 +107,22 @@
 
         <div class="setting-group">
           <label class="setting-label">選択肢数</label>
-          <select v-model="settings.choiceCount" class="select-input">
-            <option :value="3">3択</option>
-            <option :value="4">4択</option>
-            <option :value="5">5択</option>
-            <option :value="6">6択</option>
+          <select
+            v-model="settings.choiceCount"
+            class="select-input"
+          >
+            <option :value="3">
+              3択
+            </option>
+            <option :value="4">
+              4択
+            </option>
+            <option :value="5">
+              5択
+            </option>
+            <option :value="6">
+              6択
+            </option>
           </select>
         </div>
 

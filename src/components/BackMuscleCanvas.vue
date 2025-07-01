@@ -1,6 +1,8 @@
 <template>
   <div class="back-muscle-canvas">
-    <h3 class="canvas-title">背面</h3>
+    <h3 class="canvas-title">
+      背面
+    </h3>
     <svg
       viewBox="0 0 500 600"
       class="human-body-svg"
@@ -9,32 +11,128 @@
       <!-- Human body outline (back view) -->
       <g class="body-outline">
         <!-- Head -->
-        <ellipse cx="250" cy="50" rx="40" ry="50" fill="none" stroke="#333" stroke-width="2"/>
+        <ellipse
+          cx="250"
+          cy="50"
+          rx="40"
+          ry="50"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
         
         <!-- Neck -->
-        <rect x="235" y="95" width="30" height="25" fill="none" stroke="#333" stroke-width="2"/>
+        <rect
+          x="235"
+          y="95"
+          width="30"
+          height="25"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
         
         <!-- Torso -->
-        <ellipse cx="250" cy="200" rx="80" ry="100" fill="none" stroke="#333" stroke-width="2"/>
+        <ellipse
+          cx="250"
+          cy="200"
+          rx="80"
+          ry="100"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
         
         <!-- Arms -->
-        <ellipse cx="150" cy="180" rx="20" ry="60" fill="none" stroke="#333" stroke-width="2"/>
-        <ellipse cx="350" cy="180" rx="20" ry="60" fill="none" stroke="#333" stroke-width="2"/>
+        <ellipse
+          cx="150"
+          cy="180"
+          rx="20"
+          ry="60"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
+        <ellipse
+          cx="350"
+          cy="180"
+          rx="20"
+          ry="60"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
         
         <!-- Forearms -->
-        <ellipse cx="130" cy="270" rx="15" ry="50" fill="none" stroke="#333" stroke-width="2"/>
-        <ellipse cx="370" cy="270" rx="15" ry="50" fill="none" stroke="#333" stroke-width="2"/>
+        <ellipse
+          cx="130"
+          cy="270"
+          rx="15"
+          ry="50"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
+        <ellipse
+          cx="370"
+          cy="270"
+          rx="15"
+          ry="50"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
         
         <!-- Hips -->
-        <ellipse cx="250" cy="320" rx="70" ry="30" fill="none" stroke="#333" stroke-width="2"/>
+        <ellipse
+          cx="250"
+          cy="320"
+          rx="70"
+          ry="30"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
         
         <!-- Thighs -->
-        <ellipse cx="220" cy="400" rx="25" ry="70" fill="none" stroke="#333" stroke-width="2"/>
-        <ellipse cx="280" cy="400" rx="25" ry="70" fill="none" stroke="#333" stroke-width="2"/>
+        <ellipse
+          cx="220"
+          cy="400"
+          rx="25"
+          ry="70"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
+        <ellipse
+          cx="280"
+          cy="400"
+          rx="25"
+          ry="70"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
         
         <!-- Calves -->
-        <ellipse cx="220" cy="520" rx="20" ry="60" fill="none" stroke="#333" stroke-width="2"/>
-        <ellipse cx="280" cy="520" rx="20" ry="60" fill="none" stroke="#333" stroke-width="2"/>
+        <ellipse
+          cx="220"
+          cy="520"
+          rx="20"
+          ry="60"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
+        <ellipse
+          cx="280"
+          cy="520"
+          rx="20"
+          ry="60"
+          fill="none"
+          stroke="#333"
+          stroke-width="2"
+        />
       </g>
 
       <!-- Back view muscles -->
@@ -92,13 +190,19 @@
         <!-- Triceps -->
         <ellipse
           id="triceps-left"
-          cx="140" cy="220" rx="12" ry="25"
+          cx="140"
+          cy="220"
+          rx="12"
+          ry="25"
           :class="getMuscleClass('triceps-brachii')"
           @click="onMuscleClick('triceps-brachii')"
         />
         <ellipse
           id="triceps-right"
-          cx="360" cy="220" rx="12" ry="25"
+          cx="360"
+          cy="220"
+          rx="12"
+          ry="25"
           :class="getMuscleClass('triceps-brachii')"
           @click="onMuscleClick('triceps-brachii')"
         />
@@ -107,13 +211,19 @@
         <!-- Infraspinatus -->
         <ellipse
           id="infraspinatus-left"
-          cx="180" cy="140" rx="15" ry="20"
+          cx="180"
+          cy="140"
+          rx="15"
+          ry="20"
           :class="getMuscleClass('infraspinatus')"
           @click="onMuscleClick('infraspinatus')"
         />
         <ellipse
           id="infraspinatus-right"
-          cx="320" cy="140" rx="15" ry="20"
+          cx="320"
+          cy="140"
+          rx="15"
+          ry="20"
           :class="getMuscleClass('infraspinatus')"
           @click="onMuscleClick('infraspinatus')"
         />
@@ -121,13 +231,19 @@
         <!-- Supraspinatus -->
         <ellipse
           id="supraspinatus-left"
-          cx="170" cy="130" rx="12" ry="15"
+          cx="170"
+          cy="130"
+          rx="12"
+          ry="15"
           :class="getMuscleClass('supraspinatus')"
           @click="onMuscleClick('supraspinatus')"
         />
         <ellipse
           id="supraspinatus-right"
-          cx="330" cy="130" rx="12" ry="15"
+          cx="330"
+          cy="130"
+          rx="12"
+          ry="15"
           :class="getMuscleClass('supraspinatus')"
           @click="onMuscleClick('supraspinatus')"
         />
@@ -135,13 +251,19 @@
         <!-- Teres Minor -->
         <ellipse
           id="teres-minor-left"
-          cx="190" cy="150" rx="8" ry="12"
+          cx="190"
+          cy="150"
+          rx="8"
+          ry="12"
           :class="getMuscleClass('teres-minor')"
           @click="onMuscleClick('teres-minor')"
         />
         <ellipse
           id="teres-minor-right"
-          cx="310" cy="150" rx="8" ry="12"
+          cx="310"
+          cy="150"
+          rx="8"
+          ry="12"
           :class="getMuscleClass('teres-minor')"
           @click="onMuscleClick('teres-minor')"
         />
@@ -149,24 +271,34 @@
         <!-- Subscapularis (shown as deeper muscle) -->
         <ellipse
           id="subscapularis-left"
-          cx="200" cy="160" rx="10" ry="15"
+          cx="200"
+          cy="160"
+          rx="10"
+          ry="15"
           :class="getMuscleClass('subscapularis')"
-          @click="onMuscleClick('subscapularis')"
           opacity="0.7"
+          @click="onMuscleClick('subscapularis')"
         />
         <ellipse
           id="subscapularis-right"
-          cx="300" cy="160" rx="10" ry="15"
+          cx="300"
+          cy="160"
+          rx="10"
+          ry="15"
           :class="getMuscleClass('subscapularis')"
-          @click="onMuscleClick('subscapularis')"
           opacity="0.7"
+          @click="onMuscleClick('subscapularis')"
         />
         
         <!-- Core muscles (back view) -->
         <!-- Erector Spinae -->
         <rect
           id="erector-spinae"
-          x="240" y="180" width="20" height="80" rx="10"
+          x="240"
+          y="180"
+          width="20"
+          height="80"
+          rx="10"
           :class="getMuscleClass('erector-spinae')"
           @click="onMuscleClick('erector-spinae')"
         />
@@ -175,13 +307,19 @@
         <!-- Gluteus Maximus -->
         <ellipse
           id="gluteus-maximus-left"
-          cx="220" cy="320" rx="20" ry="25"
+          cx="220"
+          cy="320"
+          rx="20"
+          ry="25"
           :class="getMuscleClass('gluteus-maximus')"
           @click="onMuscleClick('gluteus-maximus')"
         />
         <ellipse
           id="gluteus-maximus-right"
-          cx="280" cy="320" rx="20" ry="25"
+          cx="280"
+          cy="320"
+          rx="20"
+          ry="25"
           :class="getMuscleClass('gluteus-maximus')"
           @click="onMuscleClick('gluteus-maximus')"
         />
@@ -189,13 +327,19 @@
         <!-- Gluteus Medius -->
         <ellipse
           id="gluteus-medius-left"
-          cx="210" cy="310" rx="15" ry="18"
+          cx="210"
+          cy="310"
+          rx="15"
+          ry="18"
           :class="getMuscleClass('gluteus-medius')"
           @click="onMuscleClick('gluteus-medius')"
         />
         <ellipse
           id="gluteus-medius-right"
-          cx="290" cy="310" rx="15" ry="18"
+          cx="290"
+          cy="310"
+          rx="15"
+          ry="18"
           :class="getMuscleClass('gluteus-medius')"
           @click="onMuscleClick('gluteus-medius')"
         />
@@ -203,13 +347,19 @@
         <!-- Hamstrings -->
         <ellipse
           id="hamstrings-left"
-          cx="210" cy="390" rx="15" ry="35"
+          cx="210"
+          cy="390"
+          rx="15"
+          ry="35"
           :class="getMuscleClass('hamstrings')"
           @click="onMuscleClick('hamstrings')"
         />
         <ellipse
           id="hamstrings-right"
-          cx="290" cy="390" rx="15" ry="35"
+          cx="290"
+          cy="390"
+          rx="15"
+          ry="35"
           :class="getMuscleClass('hamstrings')"
           @click="onMuscleClick('hamstrings')"
         />
@@ -217,13 +367,19 @@
         <!-- Gastrocnemius (Calves) -->
         <ellipse
           id="gastrocnemius-left"
-          cx="220" cy="480" rx="15" ry="30"
+          cx="220"
+          cy="480"
+          rx="15"
+          ry="30"
           :class="getMuscleClass('gastrocnemius')"
           @click="onMuscleClick('gastrocnemius')"
         />
         <ellipse
           id="gastrocnemius-right"
-          cx="280" cy="480" rx="15" ry="30"
+          cx="280"
+          cy="480"
+          rx="15"
+          ry="30"
           :class="getMuscleClass('gastrocnemius')"
           @click="onMuscleClick('gastrocnemius')"
         />
@@ -231,20 +387,29 @@
         <!-- Soleus -->
         <ellipse
           id="soleus-left"
-          cx="220" cy="510" rx="12" ry="20"
+          cx="220"
+          cy="510"
+          rx="12"
+          ry="20"
           :class="getMuscleClass('soleus')"
           @click="onMuscleClick('soleus')"
         />
         <ellipse
           id="soleus-right"
-          cx="280" cy="510" rx="12" ry="20"
+          cx="280"
+          cy="510"
+          rx="12"
+          ry="20"
           :class="getMuscleClass('soleus')"
           @click="onMuscleClick('soleus')"
         />
       </g>
 
       <!-- Arrow pointing to current muscle -->
-      <g v-if="currentMuscle && currentMuscle.view === 'back'" class="arrow">
+      <g
+        v-if="currentMuscle && currentMuscle.view === 'back'"
+        class="arrow"
+      >
         <defs>
           <marker
             id="arrowhead-back"
@@ -254,7 +419,10 @@
             refY="3.5"
             orient="auto"
           >
-            <polygon points="0 0, 10 3.5, 0 7" fill="#ff4444" />
+            <polygon
+              points="0 0, 10 3.5, 0 7"
+              fill="#ff4444"
+            />
           </marker>
         </defs>
         <line
