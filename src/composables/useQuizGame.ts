@@ -2,6 +2,9 @@ import { ref, computed, reactive } from 'vue'
 import type { Muscle, QuizSettings, QuizQuestion, QuizResult, GameState } from '@/types'
 import musclesData from '@/data/muscles.json'
 
+/**
+ *
+ */
 export function useQuizGame() {
   const muscles = ref<Muscle[]>(musclesData as Muscle[])
   

@@ -1,6 +1,8 @@
 <template>
   <div class="quiz-options">
-    <h3 class="question-title">この筋肉の名前は？</h3>
+    <h3 class="question-title">
+      この筋肉の名前は？
+    </h3>
     <div class="options-grid">
       <button
         v-for="(choice, index) in choices"
@@ -11,14 +13,26 @@
       >
         <span class="option-letter">{{ String.fromCharCode(65 + index) }}</span>
         <span class="option-text">{{ choice }}</span>
-        <div v-if="showAnswer" class="answer-indicator">
-          <span v-if="choice === correctAnswer" class="correct-mark">✓</span>
-          <span v-else-if="choice === selectedAnswer" class="incorrect-mark">✗</span>
+        <div
+          v-if="showAnswer"
+          class="answer-indicator"
+        >
+          <span
+            v-if="choice === correctAnswer"
+            class="correct-mark"
+          >✓</span>
+          <span
+            v-else-if="choice === selectedAnswer"
+            class="incorrect-mark"
+          >✗</span>
         </div>
       </button>
     </div>
     
-    <div v-if="showAnswer" class="answer-feedback">
+    <div
+      v-if="showAnswer"
+      class="answer-feedback"
+    >
       <div :class="['feedback-message', isCorrect ? 'correct' : 'incorrect']">
         <div class="feedback-icon">
           {{ isCorrect ? '🎉' : '❌' }}
@@ -26,11 +40,16 @@
         <div class="feedback-text">
           <h4>{{ isCorrect ? '正解！' : '不正解' }}</h4>
           <p><strong>{{ correctAnswer }}</strong></p>
-          <p class="muscle-description">{{ description }}</p>
+          <p class="muscle-description">
+            {{ description }}
+          </p>
         </div>
       </div>
       
-      <button class="next-button" @click="nextQuestion">
+      <button
+        class="next-button"
+        @click="nextQuestion"
+      >
         {{ isLastQuestion ? 'ゲーム終了' : '次の問題' }}
       </button>
     </div>

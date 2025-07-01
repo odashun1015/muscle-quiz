@@ -9,10 +9,13 @@
           <div 
             class="progress-fill" 
             :style="{ width: `${progressPercentage}%` }"
-          ></div>
+          />
         </div>
       </div>
-      <button class="quit-button" @click="quitGame">
+      <button
+        class="quit-button"
+        @click="quitGame"
+      >
         ゲーム終了
       </button>
     </div>

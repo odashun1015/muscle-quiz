@@ -2,7 +2,9 @@
   <div class="result-screen">
     <div class="container">
       <div class="result-header">
-        <h1 class="title">🎯 クイズ結果</h1>
+        <h1 class="title">
+          🎯 クイズ結果
+        </h1>
         <div class="score-display">
           <div class="score-circle">
             <div class="score-text">
@@ -28,7 +30,10 @@
         </div>
       </div>
 
-      <div v-if="results.incorrectQuestions.length > 0" class="review-section">
+      <div
+        v-if="results.incorrectQuestions.length > 0"
+        class="review-section"
+      >
         <h3>間違えた問題の復習</h3>
         <div class="incorrect-questions">
           <div
@@ -40,22 +45,35 @@
               <h4>{{ question.muscle.name }}</h4>
               <span class="category-badge">{{ getCategoryName(question.muscle.category) }}</span>
             </div>
-            <p class="muscle-description">{{ question.muscle.description }}</p>
+            <p class="muscle-description">
+              {{ question.muscle.description }}
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="perfect-score" v-else>
-        <div class="celebration">🎉</div>
+      <div
+        v-else
+        class="perfect-score"
+      >
+        <div class="celebration">
+          🎉
+        </div>
         <h3>完璧です！</h3>
         <p>全問正解おめでとうございます！</p>
       </div>
 
       <div class="actions">
-        <button class="retry-button" @click="retryGame">
+        <button
+          class="retry-button"
+          @click="retryGame"
+        >
           同じ設定でもう一度
         </button>
-        <button class="title-button" @click="backToTitle">
+        <button
+          class="title-button"
+          @click="backToTitle"
+        >
           タイトルに戻る
         </button>
       </div>
